@@ -1,0 +1,140 @@
+.highlightText{
+    color: #1DA1F2;
+}
+.section-container{
+    margin-bottom: 5rem;
+}
+.home-container{
+    padding: 0rem 2rem;
+    /* width: 60rem; */
+}
+.greeting-container{
+    width: 60rem;
+}
+.greeting{
+    font-size: 32px;
+    color: #1DA1F2;
+    margin-bottom: 0;
+}
+.name{
+    font-size: 117px;
+    margin: 0;
+}
+.designation{
+    font-size: 32px;
+}
+.designation-para{
+    font-size: 32px;
+    color: #444444;
+}
+.summary{
+    font-size: 18px;
+    width: 40rem;
+    color: darkgray;
+}
+.contact-link-container{
+    display: flex;
+    gap: 1rem;
+}
+
+.aboutus-container{
+    margin-top: 5rem;
+}
+.aboutus-content-container{
+    display: flex;
+    gap: 1rem;
+    width: 74rem;
+}
+.aboutus-content{
+    width: 50rem;
+    padding-right: 4rem;
+}
+.aboutus-text{
+    font-size: 24px;
+    word-spacing: 6px;
+    color: darkgray;
+}
+.aboutus-image{
+    width: 24rem;
+    height: 24rem;
+    object-fit: cover;
+    border-radius: 15rem;
+    filter: contrast(1.2);
+    
+}
+.project-section-container{
+    margin-top: 2rem;
+}
+
+.project{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.in-touch-container{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+}
+.in-touch-text{
+    font-size: 42px;
+    margin-top: 0;
+}
+.in-touch-para{
+    margin: 0;
+    font-size: 24px;
+}
+.in-touch-link-container{
+    margin-top: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+.link-text{
+    font-size: 24px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.item-redirect-button{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+.item-redirect-button:hover{
+    color: #1DA1F2;
+}
+
+.scroll-top{
+
+}
+.scroll-up{
+    background: #1DA1F2;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 4rem;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 126rem;
+    right: 8rem;
+    font-family: "Iceland", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+}
+
+/*Project page css*/
+.project-container{
+    padding: 0rem 2rem;
+}
+.project-card-container{
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}

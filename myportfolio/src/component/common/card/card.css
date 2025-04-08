@@ -1,0 +1,71 @@
+.item-card{
+    display: flex
+;
+    align-items: flex-start;
+    width: 35rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid darkgray;
+    background: url("/portfolioBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0px 0px 7px 2px #1DA1F2;
+}
+.item-image{
+    width: 12rem;
+    height: 12rem;
+}
+.item-content{
+    padding: 0rem 1rem;
+}
+.item-title-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.item-title{
+    margin: 0;
+    font-size: 24px;
+}
+.item-tech{
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid darkgray;
+}
+.tech{
+    display: flex;
+    align-items: center;
+    border-radius: 14px;
+    padding: 5px 10px;
+    gap: 6px;
+}
+.item-tech-image{
+    width: 16px;
+    height: 16px;
+}
+.item-tech-text{
+    margin: 0;
+    font-size: 14px;
+}
+.item-description{
+    color: darkgray;
+    font-size: 18px;
+}
+
+.javascript{
+    background: rgb(110 98 2);
+}
+.react, .react-native{
+    background: rgb(2 92 117);
+}
+.redux{
+    background: rgb(41 2 101);
+}
+
+.description-text{
+    font-size: 20px;
+    color: darkgray;
+}
