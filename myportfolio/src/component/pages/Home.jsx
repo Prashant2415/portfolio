@@ -14,6 +14,7 @@ import SkillsCard from '../common/SkillsCard'
 import profile from "/profile.jpg"
 import profiletwo from "/profiletwo.jpg"
 import profilethree from "/profilethree.png"
+import {motion} from "framer-motion"
 const Home = () => {
 
   const data = Data;
@@ -55,8 +56,13 @@ const Home = () => {
 
   return (
     <div className='home-container'>
+      <motion.div
+        initial={{opacity: 0, x: -50}}
+        animate={{opacity: 1, x: 0}}
+        transition={{duration: 1, ease: "easeOut"}}
+      >
       <section className='greeting-container'>
-        <p className='greeting'>Hey there!, I'm</p>
+       <p className='greeting'>Hey there!, I'm</p>
         <h2 className='name'>{name}</h2>
         <h2 className='designation'>{title}.&nbsp;<span className='designation-para'>A self-taught developer with an
           interest in Computer Science.</span></h2>
@@ -116,6 +122,7 @@ const Home = () => {
       <div className="scroll-top">
         <button className='scroll-up' onClick={handleScroll}>Scroll Up</button>
       </div>
+      </motion.div>
     </div>
   )
 }
