@@ -11,7 +11,22 @@ export const HighlightLink = styled.a`
     cursor: pointer;
 `
 
-export const PageHeading = styled.h1`
+export const PageSubHeading = styled.h2`
     font-size: 42px;
     margin: 0;
+    border-left: 4px solid #1DA1F2;
+    padding-left: 1rem;
+`
+export const SubHeading = styled.h2`
+    font-size: 32px;
+    margin: 0;
+    color: darkgray;
+`
+export const Text = styled.p`
+    margin: 0;
+    font-size: 24px;
+`
+export const SubText = styled.p`
+    font-size: 24px;
+    margin-top: 0;
 `

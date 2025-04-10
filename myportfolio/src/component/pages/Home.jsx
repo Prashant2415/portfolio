@@ -4,12 +4,16 @@ import { ButtonText } from '../common/Button'
 import { BannerText } from '../common/BannerText'
 import person from "/person.jpg"
 import { Data } from '../Data'
-import { aboutImage, emailImage, fileImage, githubImage, linkedInImage, projectImage, redirectImage } from '../common/SVGImages'
+import { aboutImage, emailImage, fileImage, githubImage, linkedInImage, projectImage, redirectImage, skillImage } from '../common/SVGImages'
 import { HighlightLink, ParaText } from '../common/Text'
 import { SiJavascript, SiReact, SiRedux } from "react-icons/si"
 import { Card } from '../common/card/Card'
 import { Common } from '../common/Common'
 import {Link, useNavigate} from "react-router-dom"
+import SkillsCard from '../common/SkillsCard'
+import profile from "/profile.jpg"
+import profiletwo from "/profiletwo.jpg"
+import profilethree from "/profilethree.png"
 const Home = () => {
 
   const data = Data;
@@ -24,6 +28,7 @@ const Home = () => {
   const projectsvg = projectImage;
   const redirectsvg = redirectImage;
   const filesvg = fileImage;
+  const skillsvg = skillImage;
 
   const navigate = useNavigate();
 
@@ -60,6 +65,7 @@ const Home = () => {
           <ButtonText svg={githubsvg} title="Github" link={Common.GITHUB}/>
           <ButtonText svg={linkedinsvg} title="LinkedIn" link={Common.LINKEDIN}/>
           <ButtonText svg={emailsvg} title="Email" link={Common.EMAIL}/>
+          <ButtonText svg={filesvg} title="Resume" link={Common.RESUME}/>
         </div>
       </section>
       <section className="section-container aboutus-container">
@@ -72,7 +78,17 @@ const Home = () => {
               </p>
             ))}
           </div>
-          <img className='aboutus-image' src={person} alt="person" />
+          <img className='aboutus-image' src={profilethree} alt="Profile" />
+          
+        </div>
+      </section>
+      <section className='section-container skills-container'>
+        <BannerText svg={skillsvg} text="My Skills"/>
+        <div className="skill-content">
+        <SkillsCard title="Languages" item={technicalSkills.languages}/>
+        <SkillsCard title="Frameworks" item={technicalSkills.frameworks}/>
+        <SkillsCard title="Tools" item={technicalSkills.tools}/>
+        <SkillsCard title="Database" item={technicalSkills.databases}/>
         </div>
       </section>
       <section className='section-container project-section'>

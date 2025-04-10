@@ -1,16 +1,15 @@
 .item-card{
-    display: flex
-;
+    display: flex;
     align-items: flex-start;
     width: 35rem;
     padding: 1rem;
     border-radius: 1rem;
-    border: 1px solid darkgray;
+    border: 1px solid #1DA1F2;
     background: url("/portfolioBackground.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    box-shadow: 0px 0px 7px 2px #1DA1F2;
+    /* box-shadow: 0px 0px 7px 2px #1DA1F2; */
 }
 .item-image{
     width: 12rem;

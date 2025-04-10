@@ -1,0 +1,26 @@
+/*Skill card css*/
+.skill-card{
+    border: 1px solid #1DA1F2;
+    padding: 1rem;
+    border-radius: 1rem;
+    transition: box-shadow 0.3s ease;
+    background: url("/portfolioBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.skill-card:hover{
+    box-shadow: 0px 0px 7px 2px #1DA1F2;
+}
+.skill-title{
+    font-size: 32px;
+    margin: 0;
+}
+.skill-ul{
+    padding: 0;
+    list-style: none;
+}
+.skill-li{
+    font-size: 24px;
+    color: darkgray;
+}
