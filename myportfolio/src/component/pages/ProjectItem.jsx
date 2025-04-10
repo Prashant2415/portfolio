@@ -4,6 +4,7 @@ import person from "/person.jpg"
 import { BannerText } from '../common/BannerText';
 import { linkImage, projectImageList } from '../common/SVGImages';
 import { PageSubHeading, SubHeading, Text } from '../common/Text';
+import {motion} from "framer-motion"
 const ProjectItem = () => {
   const location = useLocation();
   const item = location.state;
@@ -43,9 +44,13 @@ const ProjectItem = () => {
   //     }
   const { id, name, description, image, siteLink, para } = item;
   const linksvg = linkImage
-
+  window.scrollTo({top: 0, behavior: "smooth"})
   return (
     <div className='particular-project'>
+      <motion.div
+      initial={{opacity: 0, x: -50}}
+      animate={{opacity: 1, x: 0}}
+      transition={{duration: 1, ease: "easeOut"}}>
       <BannerText svg={projectsvg} text={name} />
       <img className='project-item-image' src={person} alt="person" />
       <SubHeading>Description</SubHeading>
@@ -69,6 +74,8 @@ const ProjectItem = () => {
           </div>
         ))}
       </div>
+
+      </motion.div>
     </div>
   )
 }

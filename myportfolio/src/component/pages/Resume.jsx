@@ -5,14 +5,20 @@ import { educationImage, skillImage, starImage } from '../common/SVGImages'
 import { BannerText } from '../common/BannerText'
 import { Data } from '../Data'
 import SkillsCard from '../common/SkillsCard'
+import {motion} from "framer-motion"
 const Resume = () => {
   const starsvg = starImage;
   const educationsvg = educationImage;
   const resume = Data;
   const skillsvg = skillImage;
   const {technicalSkills} = resume
+  window.scrollTo({top: 0, behavior: "smooth"})
   return (
     <div className='resume-container'>
+      <motion.div
+      initial={{opacity: 0, x: -50}}
+      animate={{opacity: 1, x: 0}}
+      transition={{duration: 1, ease: "easeOut"}}>
       <PageSubHeading>Resume</PageSubHeading>
       <div className="resume-content">
         <div className="skills-container spaceing">
@@ -67,6 +73,7 @@ const Resume = () => {
           ))}
         </div>
       </div>
+      </motion.div>
     </div>
   )
 }
