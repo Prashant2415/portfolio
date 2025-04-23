@@ -13,7 +13,7 @@ import {Link, useNavigate} from "react-router-dom"
 import SkillsCard from '../common/SkillsCard'
 import profile from "/profile.jpg"
 import profiletwo from "/profiletwo.jpg"
-import profilethree from "/profilethree.png"
+import profilethree from "/profilethree.jpeg"
 import {motion} from "framer-motion"
 const Home = () => {
 

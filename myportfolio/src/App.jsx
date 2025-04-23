@@ -10,30 +10,30 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "",
-      element: <Template/>,
+      element: <Template />,
       children: [
         {
           path: "/",
-          element: <Home/>
+          element: <Home />
         },
         {
           path: "/project",
-          element: <Project/>
+          element: <Project />
         },
         {
           path: "/resume",
-          element: <Resume/>
+          element: <Resume />
         },
         {
           path: "/projectItem",
-          element: <ProjectItem/>
+          element: <ProjectItem />
         }
       ]
     }
-  ])  
+  ])
 
-  return(
-    <RouterProvider router={router}/>
+  return (
+    <RouterProvider router={router} />
   )
 }
 
