@@ -64,8 +64,7 @@ const Home = () => {
       <section className='greeting-container'>
        <p className='greeting'>Hey there!, I'm</p>
         <h2 className='name'>{name}</h2>
-        <h2 className='designation'>{title}.&nbsp;<span className='designation-para'>A self-taught developer with an
-          interest in Computer Science.</span></h2>
+        <h2 className='designation'>{title}</h2>
         <p className='summary'>{summary}</p>
         <div className="contact-link-container">
           <ButtonText svg={githubsvg} title="Github" link={Common.GITHUB}/>
@@ -119,10 +118,9 @@ const Home = () => {
           <ButtonText svg={filesvg} title="Resume" link={Common.RESUME}/>
         </div>
       </section>
-      <div className="scroll-top">
-        <button className='scroll-up' onClick={handleScroll}>Scroll Up</button>
-      </div>
+      
       </motion.div>
+
     </div>
   )
 }

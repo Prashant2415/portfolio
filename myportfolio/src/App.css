@@ -2,3 +2,18 @@
   max-width: 1440px;
   min-height: 100vh;
 }
+@media (max-width: 767px) {
+  :root{
+    min-width: 150dvh;
+  }
+}
+
+/* Tablet Devices (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+ 
+}
+
+/* Desktop (1024px and up) */
+@media (min-width: 1024px) {
+  
+}

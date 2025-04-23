@@ -1,7 +1,7 @@
 .item-card{
     display: flex;
     align-items: flex-start;
-    width: 35rem;
+    /* width: 35rem; */
     padding: 1rem;
     border-radius: 1rem;
     border: 1px solid #1DA1F2;
@@ -63,8 +63,34 @@
 .redux{
     background: rgb(41 2 101);
 }
+.typescript{
+    background: #3178C6;
+}
 
 .description-text{
     font-size: 20px;
     color: darkgray;
 }
+
+
+/* Mobile (max-width: 767px) */
+@media (max-width: 767px) {
+    .item-content{
+        width: 50rem;
+    }
+  }
+  
+  /* Tablet (768px - 1023px) */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .item-card{
+        width: 31rem;
+    }
+  }
+  
+  /* Desktop (1024px and up) */
+  @media (min-width: 1024px) {
+    /* .item-card{
+        width: none;
+    } */
+  }
+  

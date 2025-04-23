@@ -1,13 +1,13 @@
 import { redirectImage } from "../SVGImages";
 import "./card.css"
-import { SiJavascript, SiReact, SiRedux } from "react-icons/si"
+import { SiJavascript, SiReact, SiRedux, SiTypescript } from "react-icons/si"
 import person from "/person.jpg"
 export const Card = ({ data , onClickRedirect}) => {
     console.log(data)
     const redirectsvg = redirectImage;
     return (
         <div className="item-card">
-            <img className='item-image' src={person} alt="person" />
+            <img className={data.type === "mobile" ? 'image-contains' : 'item-image'}  src={`${data.image === "" ? person : `/${data.image}.png`}`} alt={data.name} />
             <div className="item-content">
                 <div className="item-title-container">
                     <h4 className='item-title'>{data.name}</h4>
@@ -15,7 +15,7 @@ export const Card = ({ data , onClickRedirect}) => {
                 </div>
                 <div className="item-tech">
                     {data.technologies.map((tech) => (
-                        <div className={`tech ${tech === "JavaScript" ? "javascript" : tech === "React" ? "react" : tech === "React Native" ? "react-native" : tech === "Redux" ? "redux" : ""
+                        <div className={`tech ${tech === "JavaScript" ? "javascript" : tech === "React" ? "react" : tech === "React Native" ? "react-native" : tech === "Redux" ? "redux" : tech === "TypeScript" ? "typescript": ""
                             }`} key={tech}>
                             {tech === "JavaScript" && (
                                 <SiJavascript className="item-tech-image" size={20} color="#f7df1e" />
@@ -25,6 +25,9 @@ export const Card = ({ data , onClickRedirect}) => {
                             )}
                             {tech === "Redux" && (
                                 <SiRedux className="item-tech-image" size={20} color="#764ABC" />
+                            )}
+                            {tech === "TypeScript" && (
+                                <SiTypescript className="item-tech-image" size={20} color="#000" />
                             )}
                             <p className="item-tech-text">{tech}</p>
                         </div>

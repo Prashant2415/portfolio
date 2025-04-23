@@ -6,7 +6,7 @@ export const Data = {
   "phone": "+917974273703",
   "linkedin": "https://linkedin.com/in/prashantmendhe",
   "github": "https://github.com/Prashant2415",
-  "summary": "Full Stack JavaScript Developer with 3 years of experience in building dynamic, responsive, and scalable web applications using modern technologies including React.js, JavaScript, TypeScript. Adept in using frameworks like Redux, Bootstrap, and React Native, and proficient with development tools such as GitHub, Postman. Skilled in integrating databases like MySQL and MongoDB, and experienced in creating efficient interfaces that meet both user and business needs.",
+  "summary": "Self-taught and driven, I'm a passionate Full Stack JavaScript Developer building scalable, dynamic web apps with modern JavaScript tools. Let's bring ideas to life through code.",
   "technicalSkills": {
     "languages": ["JavaScript", "HTML/CSS", "SQL"],
     "frameworks": ["React", "ES6", "Node.js", "Bootstrap", "Redux", "React Native"],
@@ -17,6 +17,7 @@ export const Data = {
     "Hi, I’m a passionate Full Stack JavaScript Developer with 3 years of experience building dynamic, responsive, and scalable web applications. I specialize in front-end development with technologies like React.js, JavaScript, and TypeScript, and have hands-on experience with frameworks such as Redux, Bootstrap, and React Native. On the backend, I'm skilled in working with databases like MySQL and MongoDB, and I regularly use tools like GitHub and Postman to streamline development and ensure quality code. I take pride in crafting intuitive user experiences that align with both user expectations and business goals.",
     "When I’m not coding, you’ll likely find me on the football field, playing table tennis, or enjoying a long bike ride. These hobbies keep me energized and bring a sense of balance to my day-to-day life as a developer."
   ],
+  "aboutMeShort":"I'm a passionate Full Stack JavaScript Developer with 3 years of experience crafting dynamic, responsive web apps using React, TypeScript, Node.js, and modern tools. I specialize in building user-focused interfaces and scalable backend solutions. Outside of coding, I enjoy football, table tennis, and long bike rides to recharge and stay balanced.",
   "education": [
     {
       "institution": "Gyan Ganga Institute of Technology and Sciences",
@@ -127,11 +128,12 @@ export const Data = {
   "projects": [
     {
       "id": 1,
+      "type": "",
       "name": "To-Do List Web Application",
       "technologies": ["JavaScript", "React", "Redux"],
       "description": "Developed a task management web application to help users organize and track their daily activities efficiently.",
-      "image": "",
-      "siteLink": "",
+      "image": "todoOne",
+      "siteLink": "https://todomodule12.netlify.app/",
       "para": [
         {
           "id": 1,
@@ -159,10 +161,11 @@ export const Data = {
     },
     {
       "id": 2,
+      "type": "",
       "name": "E-Commerce Platform",
       "technologies": ["JavaScript", "React", "Redux"],
       "description": "Developed a fully functional E-Commerce web application with product management and user authentication.",
-      "image": "",
+      "image": "eOne",
       "siteLink": "",
       "para": [
         {
@@ -191,10 +194,11 @@ export const Data = {
     },
     {
       "id": 3,
+      "type": "mobile",
       "name": "Real-Time Weather Application",
-      "technologies": ["JavaScript", "React", "React Native"],
+      "technologies": ["TypeScript", "React", "React Native"],
       "description": "Developed a mobile application using React Native to provide real-time weather updates.",
-      "image": "",
+      "image": "weatherOne",
       "siteLink": "",
       "para": [
         {
@@ -216,11 +220,45 @@ export const Data = {
           "title": "Tech Stack",
           "text": "",
           "isList": "true",
-          "list": ["JavaScript", "React", "React Native"]
+          "list": ["TypeScript", "React", "React Native"]
         }
       ]
 
+    },
+    {
+      "id": 4,
+      "type": "",
+      "name": "Movie Application",
+      "technologies": ["JavaScript", "React", "Redux"],
+      "description": "Built a responsive, cross-platform movie application using React and Redux, enabling users to explore a wide range of movies, search and filter results, view detailed information, and manage a personal watchlist.",
+      "image": "movieOne",
+      "siteLink": "https://pm-movie-application.netlify.app/",
+      "para": [
+        {
+          "id": 1,
+          "title": "Overview",
+          "text": "The Movie Application is a responsive and user-centric app designed for both web and mobile platforms. It allows users to browse a variety of movies, search and filter by genres or keywords, view detailed movie descriptions, and save favorites to a watchlist.",
+          "isList": "false",
+          "list": null
+        },
+        {
+          "id": 2,
+          "title": "Project Goal",
+          "text": "The goal was to develop an engaging and responsive movie browsing experience that works seamlessly across devices. The app focuses on delivering real-time data, smooth navigation, and watchlist management while maintaining performance and scalability.",
+          "isList": "false",
+          "list": null
+        },
+        {
+          "id": 3,
+          "title": "Tech Stack",
+          "text": "",
+          "isList": "true",
+          "list": ["JavaScript", "React", "Redux"]
+        }
+      ]
     }
+    
+    
   ],
   "certifications": [
     "GitHub Copilot",

@@ -11,37 +11,6 @@ const ProjectItem = () => {
   console.log(item)
   const projectsvg = projectImageList;
 
-  // const dummy ={
-  //       "id": 1,
-  //       "name": "To do list",
-  //       "description": "Welcome to to do list application",
-  //       "image": "",
-  //       "siteLink": "",
-  //       "technologies": ["JavaScript", "React", "Redux"],
-  //       "para": [
-  //         {
-  //           "id": 1,
-  //           "title": "Overview",
-  //           "text": "Welcome to to do list application",
-  //           "isList": "false",
-  //           "list": null
-  //         },
-  //         {
-  //           "id": 2,
-  //           "title": "Project Goal",
-  //           "text": "Welcome to to do list application",
-  //           "isList": "false",
-  //           "list": null
-  //         },
-  //         {
-  //           "id": 3,
-  //           "title": "Tech Stack",
-  //           "text": "Welcome to to do list application",
-  //           "isList": "true",
-  //           "list": ["JavaScript", "React", "Redux"]
-  //         }
-  //       ]
-  //     }
   const { id, name, description, image, siteLink, para } = item;
   const linksvg = linkImage
   window.scrollTo({top: 0, behavior: "smooth"})
@@ -52,7 +21,7 @@ const ProjectItem = () => {
       animate={{opacity: 1, x: 0}}
       transition={{duration: 1, ease: "easeOut"}}>
       <BannerText svg={projectsvg} text={name} />
-      <img className='project-item-image' src={person} alt="person" />
+      <img className={`project-item-image ${item.type === "mobile" ? "project-image-contains" : ""}`} src={`${image === "" ? person : `/${image}.png`}`} alt={name} />
       <SubHeading>Description</SubHeading>
       <Text>{description}</Text>
       <div className="live-site">

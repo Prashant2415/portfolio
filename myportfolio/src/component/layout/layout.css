@@ -39,6 +39,7 @@ header{
 
 .main-container{
     padding-top: 5rem;
+    min-height: 143vh;
 }
 
 .footer-container{
@@ -46,10 +47,22 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
 }
 .footer-text{
     font-size: 24px;
 }
 .p-tag{
     margin: 0;
+}
+
+@media (max-width: 767px) {
+    .main-container{
+        min-height: 300vh;
+    }
+}
+@media (min-width: 768px) {
+    .main-container{
+        min-height: 140vh;
+    }
 }

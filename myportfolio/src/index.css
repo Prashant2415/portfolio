@@ -8,7 +8,7 @@
 
 body {
   margin: 0 2rem;
-  min-width: 320px;
+  /* min-width: 320px; */
   min-height: 100vh;
   /* background: #000; */
   /* background: #000; */
@@ -21,4 +21,49 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+:root {
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0 1rem;
+  min-height: 100vh;
+  background: url("/portfolioBackground.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  font-family: "Iceland", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Mobile Devices (max-width: 767px) */
+@media (max-width: 767px) {
+  body {
+    padding: 0 0.5rem;
+    min-width: 1134px;
+  }
+}
+
+/* Tablet Devices (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+  body {
+    padding: 0 2rem;
+    min-width: 1184px;
+  }
+}
+
+/* Desktop (1024px and up) */
+@media (min-width: 1024px) {
+  body {
+    padding: 0 4rem;
+    min-width: 1152px;
+  }
 }
