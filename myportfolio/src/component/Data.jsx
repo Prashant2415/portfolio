@@ -4,7 +4,7 @@ export const Data = {
   "location": "Jabalpur MP, INDIA",
   "email": "prashantmendhejbp@gmail.com",
   "phone": "+917974273703",
-  "linkedin": "https://linkedin.com/in/prashantmendhe",
+  "linkedin": "https://www.linkedin.com/in/prashant-mendhe-605428210/",
   "github": "https://github.com/Prashant2415",
   "summary": "Self-taught and driven, I'm a passionate Full Stack JavaScript Developer building scalable, dynamic web apps with modern JavaScript tools. Let's bring ideas to life through code.",
   "technicalSkills": {
@@ -49,12 +49,13 @@ export const Data = {
       "duration": "Oct 2024 - Present",
       "project": "Hawaii Project",
       "role": "Frontend Developer (with backend involvement)",
-      "description": "Contributing to the development of the application of the Health Analytics system.",
+      "description": "Health Analytics Application (HAP) is a portal evolved by Hawai'i State of US where multiple Tax Reports can be submitted by Submitter or Attester Role and Reviewed by Reviewer or Supervisor Roles.",
       "responsibilities": [
         "Developed reusable and scalable front-end components to enhance maintainability and efficiency.",
         "Configured functionality-related operations to ensure smooth application performance.",
         "Resolved CSS issues and optimized the UI for responsiveness across devices.",
-        "Managed and updated content to align with business requirements."
+        "Managed and updated content to align with business requirements.",
+        "Worked with Liquibase to update content."
       ]
     },
     {
@@ -64,7 +65,7 @@ export const Data = {
       "duration": "Oct 2023 – Oct 2024",
       "project": "United Health Group Optum Project",
       "role": "Frontend Developer",
-      "description": "Contributed to the development of a Healthcare Web application.",
+      "description": "Self Service Portal (SSP) evolved for NC is utilized by Health Care Providers and netizens. Here we can search the provider using various features as name, speciality, etc, where we can see the list of providers with map view and additional features based on when a particular Health Care provider is available.",
       "responsibilities": [
         "Developed and maintained front-end components based on business requirements, ensuring responsiveness and usability.",
         "Wrote Jest test cases to verify component functionality and improve code quality.",
@@ -78,11 +79,11 @@ export const Data = {
       "duration": "Feb 2023 – Oct 2023",
       "project": "Health Insurance Portal Project",
       "role": "Frontend Developer",
-      "description": "Designed and developed a Health Insurance application.",
+      "description": "Build a comprehensive Health Insurance Portal that allows users to explore, compare, and purchase various insurance plans. The platform includes features for user registration, policy management, premium calculation. Focused on delivering a user-friendly interface with secure and efficient data.",
       "responsibilities": [
-        "Led the development and maintenance of the Health Insurance Portal.",
-        "Implemented CRUD operations and an announcement API.",
-        "Designed and executed test cases for application validation.",
+        "Led the development and maintenance of the Health Insurance Portal, collaborating with stakehlder to define project requirement and timelines.",
+        "Implemented CRUD operations for health insurance data and developed an announcement API to provide updates on policy revision.",
+        "Designed and executed test cases to validate the functionality of the application.",
         "Used React, JavaScript, MySQL Workbench, HTML, Web Components, and Git."
       ]
     },
@@ -93,11 +94,11 @@ export const Data = {
       "duration": "June 2022 – Feb 2023",
       "project": "E-Commerce Project",
       "role": "Frontend Developer",
-      "description": "Designed and developed a Shopping Cart application.",
+      "description": "Developed a fully functional E-commerce web application with features like user authentication, product listing, shopping cart, order management. The platform offers a seamless user experience.",
       "responsibilities": [
-        "Collaborated with Product Manager to meet business goals.",
-        "Implemented CRUD for product details and feedback functionality.",
-        "Created and executed test cases for quality assurance.",
+        "Collaborated closely with the Product Manager and the development team to meet business requirements and deliver efficient results.",
+        "Implemented CRUD operations for product details and designed the User Interface to display product information.",
+        "Developed a feedback functionality to enhance user experience.",
         "Technologies used: React, JavaScript, MySQL Workbench, HTML, Web Components, Git."
       ]
     },
@@ -106,11 +107,12 @@ export const Data = {
       "company": "Persistent Systems",
       "location": "Pune (M.H.)",
       "duration": "Jan 2022 – June 2022",
-      "role": "Frontend Developer",
+      "role": "Full Stack Developer",
+      "description": "Trained as a Full Stack Developer with handson experience in both front-end and back-end technologies.",
       "responsibilities": [
-        "Worked with SQL, React, Node.js, HTML/CSS, JavaScript, Java, Git, Postman.",
-        "Built and maintained applications while following best practices.",
-        "Used Git for version control and maintained code quality."
+        "Strong understanding of technologies like HTML/CSS, JavaScript,Node.js , GIT, Postman, React, SQL",
+        "Used above mentioned technologies to develop application and ensuring best practice.",
+        "Experienced in version control using GIT, maintaining good quality code practice and efficient team collaboration."
       ]
     },
     {
@@ -159,8 +161,74 @@ export const Data = {
       ]
 
     },
+    
     {
       "id": 2,
+      "type": "mobile",
+      "name": "Real-Time Weather Application",
+      "technologies": ["TypeScript", "React", "React Native"],
+      "description": "Developed a mobile application using React Native to provide real-time weather updates.",
+      "image": "weatherOne",
+      "siteLink": "https://weather-1999-app.netlify.app/",
+      "para": [
+        {
+          "id": 1,
+          "title": "Overview",
+          "text": "The Real-Time Weather Application is a mobile-friendly app that provides users with live weather updates including temperature, humidity, and forecasts based on their location.",
+          "isList": "false",
+          "list": null
+        },
+        {
+          "id": 2,
+          "title": "Project Goal",
+          "text": "The aim of the project was to create an intuitive mobile application that fetches and displays weather data in real-time using location-based APIs for both Android and iOS devices.",
+          "isList": "false",
+          "list": null
+        },
+        {
+          "id": 3,
+          "title": "Tech Stack",
+          "text": "",
+          "isList": "true",
+          "list": ["TypeScript", "React", "React Native"]
+        }
+      ]
+
+    },
+    {
+      "id": 3,
+      "type": "",
+      "name": "Movie Application",
+      "technologies": ["JavaScript", "React", "Redux"],
+      "description": "Built a responsive, cross-platform movie application using React and Redux, enabling users to explore a wide range of movies, search and filter results, view detailed information, and manage a personal watchlist.",
+      "image": "movieOne",
+      "siteLink": "https://pm-movie-application.netlify.app/",
+      "para": [
+        {
+          "id": 1,
+          "title": "Overview",
+          "text": "The Movie Application is a responsive and user-centric app designed for both web and mobile platforms. It allows users to browse a variety of movies, search and filter by genres or keywords, view detailed movie descriptions, and save favorites to a watchlist.",
+          "isList": "false",
+          "list": null
+        },
+        {
+          "id": 2,
+          "title": "Project Goal",
+          "text": "The goal was to develop an engaging and responsive movie browsing experience that works seamlessly across devices. The app focuses on delivering real-time data, smooth navigation, and watchlist management while maintaining performance and scalability.",
+          "isList": "false",
+          "list": null
+        },
+        {
+          "id": 3,
+          "title": "Tech Stack",
+          "text": "",
+          "isList": "true",
+          "list": ["JavaScript", "React", "Redux"]
+        }
+      ]
+    },
+    {
+      "id": 4,
       "type": "",
       "name": "E-Commerce Platform",
       "technologies": ["JavaScript", "React", "Redux"],
@@ -191,71 +259,6 @@ export const Data = {
         }
       ]
 
-    },
-    {
-      "id": 3,
-      "type": "mobile",
-      "name": "Real-Time Weather Application",
-      "technologies": ["TypeScript", "React", "React Native"],
-      "description": "Developed a mobile application using React Native to provide real-time weather updates.",
-      "image": "weatherOne",
-      "siteLink": "",
-      "para": [
-        {
-          "id": 1,
-          "title": "Overview",
-          "text": "The Real-Time Weather Application is a mobile-friendly app that provides users with live weather updates including temperature, humidity, and forecasts based on their location.",
-          "isList": "false",
-          "list": null
-        },
-        {
-          "id": 2,
-          "title": "Project Goal",
-          "text": "The aim of the project was to create an intuitive mobile application that fetches and displays weather data in real-time using location-based APIs for both Android and iOS devices.",
-          "isList": "false",
-          "list": null
-        },
-        {
-          "id": 3,
-          "title": "Tech Stack",
-          "text": "",
-          "isList": "true",
-          "list": ["TypeScript", "React", "React Native"]
-        }
-      ]
-
-    },
-    {
-      "id": 4,
-      "type": "",
-      "name": "Movie Application",
-      "technologies": ["JavaScript", "React", "Redux"],
-      "description": "Built a responsive, cross-platform movie application using React and Redux, enabling users to explore a wide range of movies, search and filter results, view detailed information, and manage a personal watchlist.",
-      "image": "movieOne",
-      "siteLink": "https://pm-movie-application.netlify.app/",
-      "para": [
-        {
-          "id": 1,
-          "title": "Overview",
-          "text": "The Movie Application is a responsive and user-centric app designed for both web and mobile platforms. It allows users to browse a variety of movies, search and filter by genres or keywords, view detailed movie descriptions, and save favorites to a watchlist.",
-          "isList": "false",
-          "list": null
-        },
-        {
-          "id": 2,
-          "title": "Project Goal",
-          "text": "The goal was to develop an engaging and responsive movie browsing experience that works seamlessly across devices. The app focuses on delivering real-time data, smooth navigation, and watchlist management while maintaining performance and scalability.",
-          "isList": "false",
-          "list": null
-        },
-        {
-          "id": 3,
-          "title": "Tech Stack",
-          "text": "",
-          "isList": "true",
-          "list": ["JavaScript", "React", "Redux"]
-        }
-      ]
     }
     
     

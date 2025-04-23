@@ -25,7 +25,7 @@ const AnchorText = styled.a`
 `
 export const ButtonText =({svg, title, link})=>{
     return(
-        <AnchorText href={link} download={title === "Resume" ? true : undefined}>
+        <AnchorText target="_blank" href={link} download={title === "Resume" ? true : undefined}>
             <ButtonImageText>{svg}{title}</ButtonImageText>
         </AnchorText>
     )
