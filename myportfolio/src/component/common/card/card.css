@@ -87,7 +87,7 @@
   /* @media (min-width: 1024px) {
     
   } */
-  @media (max-width: 768px) {
+  @media (max-width: 767px) {
 
     .item-card{
         display: block;
@@ -109,4 +109,17 @@
         padding: 0;
     }
  }
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .item-card{
+        display: block;
+        margin-bottom: 1rem;
+    }
+    .item-image{
+        width: 100%;
+        background: #000;
+        height: 12rem;
+        object-fit: contain;
+    }
+}
   

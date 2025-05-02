@@ -57,7 +57,7 @@ const Resume = () => {
           <div className="experience spaceing">
             <BannerText svg={starsvg} text="Experience" />
             {resume.experience.map((pr,index) => (
-              <div className={`resume-content-container ${index !== resume.experience.length - 1 ? 'with-border' : ''}`} key={index}>
+              <div className={`resume-content-container experience ${index !== resume.experience.length - 1 ? 'with-border' : ''}`} key={index}>
                 <div className="experience-time-content">
                   <Text className='experience-duration'>{pr.duration}</Text>
                   <Text className='location'>{pr.location}</Text>

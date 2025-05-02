@@ -48,6 +48,7 @@ header{
     justify-content: center;
     align-items: center;
     padding: 2rem;
+    row-gap: 1rem;
 }
 .footer-text{
     font-size: 24px;
@@ -55,6 +56,25 @@ header{
 }
 .p-tag{
     margin: 0;
+}
+
+.scroll-top-button{
+    padding: 0.5rem;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 1rem;
+    outline: none;
+    border: none;
+    background: #1dA1F2;
+    color: #000;    
+    transition: background 0.3s ease;
+    font-family: "Iceland", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.scroll-top-button:hover{
+    background: #202020;
+    color: #fff;
 }
 
 @media (max-width: 767px) {
@@ -98,8 +118,35 @@ header{
     }
 
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
     .main-container{
         /* min-height: 140vh; */
+    }
+    .header-container{
+        padding: 0rem 4rem;
+    }
+    .nav-link{
+        font-size: 20px;
+    }
+    .footer-container{
+        row-gap: 1rem;
+    }
+    .scroll-top-button{
+        padding: 0.5rem;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 1rem;
+        outline: none;
+        border: none;
+        background: #1dA1F2;
+        color: #000;    
+        transition: background 0.3s ease;
+        font-family: "Iceland", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .scroll-top-button:hover{
+        background: #202020;
+        color: #fff;
     }
 }

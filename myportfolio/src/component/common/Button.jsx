@@ -20,7 +20,7 @@ const ButtonImageText = styled.button`
         
     }
 
-     @media (max-width: 768px) {
+     @media (max-width: 767px) {
         padding: 8px 16px;
         font-size: 20px;
         gap: 10px;
@@ -32,6 +32,10 @@ const ButtonImageText = styled.button`
         font-size: 20px;
         gap: 10px;
         width: 100%;
+    }
+
+    @media (max-width: 1023px){
+        font-size: 24px;
     }
 `
 const AnchorText = styled.a`
