@@ -3,7 +3,6 @@ import "./card.css"
 import { SiJavascript, SiReact, SiRedux, SiTypescript } from "react-icons/si"
 import person from "/person.jpg"
 export const Card = ({ data , onClickRedirect}) => {
-    console.log(data)
     const redirectsvg = redirectImage;
     return (
         <div className="item-card">

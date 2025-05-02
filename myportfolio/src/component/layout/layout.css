@@ -79,7 +79,6 @@ header{
 
 @media (max-width: 767px) {
     .main-container{
-        /* min-height: 300vh; */
         padding-top: 4rem;
     }
     .header-container{
@@ -120,7 +119,6 @@ header{
 }
 @media (min-width: 768px) and (max-width: 1023px) {
     .main-container{
-        /* min-height: 140vh; */
     }
     .header-container{
         padding: 0rem 4rem;

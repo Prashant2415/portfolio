@@ -42,12 +42,7 @@ const Home = () => {
   };
 
   const handleRedirect=(projectData)=>{
-    console.log(projectData)
     navigate("/projectItem",{state: projectData})
-  }
-
-  const handleScroll=()=>{
-    window.scrollTo({top: 0, behavior: "smooth"})
   }
 
   return (

@@ -11,7 +11,6 @@ const Project = () => {
   const data = Data;
   const navigate = useNavigate();
   const handleRedirect=(projectItem) =>{
-    console.log(projectItem)
     navigate("/projectItem",{state: projectItem})
   }
   const projectsvg = projectImageList;

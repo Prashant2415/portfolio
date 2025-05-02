@@ -8,7 +8,6 @@ import {motion} from "framer-motion"
 const ProjectItem = () => {
   const location = useLocation();
   const item = location.state;
-  console.log(item)
   const projectsvg = projectImageList;
 
   const { id, name, description, image, siteLink, para } = item;
