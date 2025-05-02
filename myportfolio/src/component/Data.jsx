@@ -6,7 +6,7 @@ export const Data = {
   "phone": "+917974273703",
   "linkedin": "https://www.linkedin.com/in/prashant-mendhe-605428210/",
   "github": "https://github.com/Prashant2415",
-  "summary": "A self-taught developer with an interest in Development.",
+  "summary": "A self-taught developer with a strong interest in software development, passionate about building innovative and user-friendly applications.",
   "technicalSkills": {
     "languages": ["JavaScript", "HTML/CSS", "SQL"],
     "frameworks": ["React", "ES6", "Node.js", "Bootstrap", "Redux", "React Native"],
@@ -14,10 +14,11 @@ export const Data = {
     "databases": ["MySQL Workbench", "MongoDB"]
   },
   "aboutMe": [
-    "Hey! I'm a Prashant Mendhe a Full Stack JavaScript Developer with 3 years of experience building responsive and scalable web applications. I specialize in front-end technologies like React, TypeScript, and Redux, and have hands-on experience with back-end tools such as MySQL and MongoDB. I’m passionate about creating clean, efficient code and crafting user-friendly experiences that align with both user needs and business goals.",
-    "When I’m not coding, you’ll likely find me on the football field, playing table tennis, or enjoying a long bike ride. These hobbies keep me energized and bring a sense of balance to my day-to-day life as a developer."
+    "Hi! I'm Prashant Mendhe, a Full Stack JavaScript Developer with 3 years of experience building responsive and scalable web applications. I specialize in front-end technologies like React, TypeScript, and Redux, and I have hands-on experience with back-end tools such as MySQL and MongoDB. I'm passionate about writing clean, efficient code and creating user-friendly experiences that align with both user needs and business goals.",
+  "When I’m not coding, you’ll find me on the football field, playing table tennis, or enjoying a long bike ride. These hobbies keep me energized and help maintain a healthy work-life balance."
   ],
-  "aboutMeShort":"I'm a passionate Full Stack JavaScript Developer with 3 years of experience crafting dynamic, responsive web apps using React, TypeScript, Node.js, and modern tools. I specialize in building user-focused interfaces and scalable backend solutions. Outside of coding, I enjoy football, table tennis, and long bike rides to recharge and stay balanced.",
+  "aboutMeShort":"I'm a passionate Full Stack JavaScript Developer with 3 years of experience crafting dynamic and responsive web applications using React, TypeScript, Node.js, and modern development tools. I focus on building intuitive user interfaces and scalable backend solutions. Outside of work, I enjoy football, table tennis, and long bike rides to stay refreshed and balanced."
+,
   "education": [
     {
       "institution": "Gyan Ganga Institute of Technology and Sciences",
