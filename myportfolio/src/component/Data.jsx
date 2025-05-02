@@ -6,7 +6,7 @@ export const Data = {
   "phone": "+917974273703",
   "linkedin": "https://www.linkedin.com/in/prashant-mendhe-605428210/",
   "github": "https://github.com/Prashant2415",
-  "summary": "Self-taught and driven, I'm a passionate Full Stack JavaScript Developer building scalable, dynamic web apps with modern JavaScript tools. Let's bring ideas to life through code.",
+  "summary": "A self-taught developer with an interest in Development.",
   "technicalSkills": {
     "languages": ["JavaScript", "HTML/CSS", "SQL"],
     "frameworks": ["React", "ES6", "Node.js", "Bootstrap", "Redux", "React Native"],
@@ -14,7 +14,7 @@ export const Data = {
     "databases": ["MySQL Workbench", "MongoDB"]
   },
   "aboutMe": [
-    "Hi, I’m a passionate Full Stack JavaScript Developer with 3 years of experience building dynamic, responsive, and scalable web applications. I specialize in front-end development with technologies like React.js, JavaScript, and TypeScript, and have hands-on experience with frameworks such as Redux, Bootstrap, and React Native. On the backend, I'm skilled in working with databases like MySQL and MongoDB, and I regularly use tools like GitHub and Postman to streamline development and ensure quality code. I take pride in crafting intuitive user experiences that align with both user expectations and business goals.",
+    "Hey! I'm a Prashant Mendhe a Full Stack JavaScript Developer with 3 years of experience building responsive and scalable web applications. I specialize in front-end technologies like React, TypeScript, and Redux, and have hands-on experience with back-end tools such as MySQL and MongoDB. I’m passionate about creating clean, efficient code and crafting user-friendly experiences that align with both user needs and business goals.",
     "When I’m not coding, you’ll likely find me on the football field, playing table tennis, or enjoying a long bike ride. These hobbies keep me energized and bring a sense of balance to my day-to-day life as a developer."
   ],
   "aboutMeShort":"I'm a passionate Full Stack JavaScript Developer with 3 years of experience crafting dynamic, responsive web apps using React, TypeScript, Node.js, and modern tools. I specialize in building user-focused interfaces and scalable backend solutions. Outside of coding, I enjoy football, table tennis, and long bike rides to recharge and stay balanced.",
@@ -47,7 +47,7 @@ export const Data = {
       "company": "Persistent Systems",
       "location": "Pune (M.H.)",
       "duration": "Oct 2024 - Present",
-      "project": "Hawaii Project",
+      "project": "United Health Group (UHG) Hawaii Project",
       "role": "Frontend Developer (with backend involvement)",
       "description": "Health Analytics Application (HAP) is a portal evolved by Hawai'i State of US where multiple Tax Reports can be submitted by Submitter or Attester Role and Reviewed by Reviewer or Supervisor Roles.",
       "responsibilities": [

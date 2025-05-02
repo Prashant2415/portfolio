@@ -24,7 +24,7 @@ export const SubHeading = styled.h2`
 `
 export const Text = styled.p`
     margin: 0;
-    font-size: 24px;
+    font-size: 18px;
 `
 export const SubText = styled.p`
     font-size: 24px;

@@ -24,3 +24,15 @@
     font-size: 24px;
     color: darkgray;
 }
+
+@media (max-width: 768px) {
+
+   .skill-card{
+    height: 10rem;
+    margin-bottom: 1rem;
+   }
+   .skill-li{
+    font-size: 20px;
+    color: darkgray;
+   }
+}

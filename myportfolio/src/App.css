@@ -4,7 +4,8 @@
 }
 @media (max-width: 767px) {
   :root{
-    min-width: 150dvh;
+    min-width: 322px;
+    min-height: 652px;
   }
 }
 

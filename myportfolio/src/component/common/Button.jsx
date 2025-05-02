@@ -19,6 +19,20 @@ const ButtonImageText = styled.button`
         background: #202020;
         
     }
+
+     @media (max-width: 768px) {
+        padding: 8px 16px;
+        font-size: 20px;
+        gap: 10px;
+        width: 100%;
+    }
+
+    @media (max-width: 480px) {
+        padding: 6px 12px;
+        font-size: 20px;
+        gap: 10px;
+        width: 100%;
+    }
 `
 const AnchorText = styled.a`
     text-decoration: none;

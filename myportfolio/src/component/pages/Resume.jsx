@@ -39,8 +39,10 @@ const Resume = () => {
           </div>
           <div className="education spaceing">
             <BannerText svg={educationsvg} text="Education" />
-            {resume.education.map((ed) => (
-              <div className="resume-content-container">
+            {resume.education.map((ed,index) => (
+              <div  className={`resume-content-container ${
+                index !== resume.education.length - 1 ? 'with-border' : ''
+              }`} key={index}>
                 <div className="time-content">
                   <Text className='duration'>{ed.duration}</Text>
                   <Text className='location'>{ed.location}</Text>
@@ -54,8 +56,8 @@ const Resume = () => {
           </div>
           <div className="experience spaceing">
             <BannerText svg={starsvg} text="Experience" />
-            {resume.experience.map((pr) => (
-              <div className="resume-content-container">
+            {resume.experience.map((pr,index) => (
+              <div className={`resume-content-container ${index !== resume.experience.length - 1 ? 'with-border' : ''}`} key={index}>
                 <div className="experience-time-content">
                   <Text className='experience-duration'>{pr.duration}</Text>
                   <Text className='location'>{pr.location}</Text>

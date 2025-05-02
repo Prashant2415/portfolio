@@ -286,7 +286,9 @@
 .aboutme-content{
     padding: 2rem;
 }
-
+.aboutme-short{
+  color: darkgray;
+}
 
 /* @media (min-width: 320px) {
     
@@ -303,8 +305,13 @@
         padding: 1rem;
       }
     
-      .greeting-container,
-      .aboutus-content-container,
+      .greeting-container{
+        width: 90%;
+      }
+
+      .aboutus-content-container{
+        padding: 2rem 0rem;
+      }
       .skill-content,
       .project {
         width: 100%;
@@ -315,17 +322,21 @@
       }
     
       .name {
-        font-size: 48px;
+        font-size: 60px;
       }
     
-      .designation,
+      .designation{
+        font-size: 24px;
+      }
       .designation-para {
-        font-size: 20px;
+        font-size: 24px;
       }
     
       .summary {
-        font-size: 16px;
+        font-size: 19px;
         width: 100%;
+        margin-bottom: 2rem;
+
       }
     
       .aboutus-content-container {
@@ -341,26 +352,27 @@
     
       .aboutus-image {
         width: 20rem;
-        height: 30rem;
-        border-radius: 6rem;
+        height: 20rem;
         object-fit: cover;
         bottom: 0;
+        object-position: center 25%;
       }
     
-      .skill-content,
+      .skill-content{
+        grid-template-columns: 1fr;
+        gap: 0;
+      }
       .project-card-container {
         grid-template-columns: 1fr;
       }
-      .resume-skills-content{
+      /* .resume-skills-content{
         grid-template-columns: 1fr 1fr;
-      }
+      } */
 
-      .skill-card{
-        height: 13rem;
-      }
     
       .project {
         grid-template-columns: 1fr;
+        display: block;
       }
     
       .scroll-up {
@@ -381,14 +393,11 @@
         margin: 1rem 0;
       }
     
-      .live-site {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0.5rem;
+      .libe-site{
+        display: block;
       }
-    
       .site {
-        font-size: 18px;
+        font-size: 24px;
       }
     
       .para-content-container {
@@ -425,6 +434,90 @@
         /* top: 223rem;
         right: -38rem; */
         }
+      .contact-link-container{
+        width: -webkit-fill-available;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+      }
+      .aboutus-text{
+        font-size: 20px;
+        word-spacing: 1px;
+        color: darkgray;
+      }
+      .aboutus-container{
+        margin-bottom: 0;
+      }
+      .image-contains{
+        object-fit: contain;
+        width: 100%;
+        height: 12rem;
+        background: #000;
+      }
+      .in-touch-container{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      }
+      .in-touch-para{
+        margin: 0;
+        font-size: 24px;
+        color: darkgray;
+        margin-bottom: 1rem;
+      }
+      .in-touch-link-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      .project-container{
+        padding: 1rem;
+      }
+      .resume-container{
+        padding: 1rem;
+      }
+      .spaceing{
+        padding: 1rem 0rem;
+      }
+      .aboutme-content{
+        padding: 1rem 0rem;
+      }
+      .resume-skills-content{
+        display: block;
+        padding: 1rem;
+      }
+      /* .resume-content-container{
+        display: flex;
+        align-items: baseline;
+        margin: 0rem;
+        gap: 1rem;
+        padding: 1rem 0rem;
+      } */
+      .time-content{
+        border-right: none;
+        margin-bottom: 1rem;
+      }
+       .resume-content-container{
+        display: block;
+        padding: 1rem 0rem;
+        margin: 0rem;
+       }
+       /* .resume-content-container .content:not(:last-of-type){
+        padding-bottom: 20px;
+        border-bottom: 1px solid darkgray;
+       } */
+      .with-border{
+        padding-bottom: 20px;
+        border-bottom: 1px solid #202020;
+      }
+      .experience-time-content{
+        border-right: none;
+        margin-bottom: 1rem;
+      }
+      .rs-ul{
+        padding: 0rem 1rem;
+      }
   }
   
   /* Tablet Devices (768px - 1023px) */

@@ -51,6 +51,7 @@ header{
 }
 .footer-text{
     font-size: 24px;
+    color: darkgray;
 }
 .p-tag{
     margin: 0;
@@ -58,11 +59,47 @@ header{
 
 @media (max-width: 767px) {
     .main-container{
-        min-height: 300vh;
+        /* min-height: 300vh; */
+        padding-top: 4rem;
     }
+    .header-container{
+        padding: 0rem 1rem;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        text-align: center;
+        margin-bottom: 0;
+        row-gap: 1rem;
+    }
+    .footer-text{
+        margin: 0;
+    }
+    .scroll-top-button{
+        padding: 0.5rem;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 1rem;
+        outline: none;
+        border: none;
+        background: #1dA1F2;
+        color: #000;    
+        transition: background 0.3s ease;
+        font-family: "Iceland", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .scroll-top-button:hover{
+        background: #202020;
+        color: #fff;
+    }
+
 }
 @media (min-width: 768px) {
     .main-container{
-        min-height: 140vh;
+        /* min-height: 140vh; */
     }
 }
