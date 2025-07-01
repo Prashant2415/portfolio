@@ -132,25 +132,29 @@ export const Data = {
     {
       "id": 1,
       "type": "",
-      "name": "To-Do List Web Application",
-      "technologies": ["JavaScript", "React", "Redux"],
-      "description": "Developed a task management web application to help users organize and track their daily activities efficiently.",
-      "image": "todoOne",
+      "name": "Plant E-Commerce Platform",
+      "technologies": ["JavaScript", "React", "Redux", "Redux Toolkit"],
+      "description": "Built a plant e-commerce platform with user authentication (Sign Up, Sign In, Logout), product browsing, and cart management, providing a complete online shopping experience.",
+      "image": "plantcart",
       "siteLink": "https://todomodule12.netlify.app/",
       "para": [
         {
           "id": 1,
           "title": "Overview",
-          "text": "This To-Do List Web Application was created to help users organize and prioritize their tasks efficiently. It offers a simple and intuitive interface to add, edit, and delete tasks.",
+          "text": "Developed a full-stack plant e-commerce web application enabling users to seamlessly browse, search, and purchase a variety of plants. Implemented user authentication with Sign Up, Sign In, and Logout functionalities, along with a shopping cart system to add, update, and manage products before checkout. Designed intuitive UI for product listings and shopping workflows, enhancing the overall user experience.",
           "isList": "false",
           "list": null
         },
         {
           "id": 2,
           "title": "Project Goal",
-          "text": "The main goal was to develop a productivity tool that improves task management and enhances users' daily planning with the ability to track progress and maintain focus.",
-          "isList": "false",
-          "list": null
+          "text": "",
+          "isList": "true",
+          "list": ["User authentication (Sign Up, Sign In, Logout) with secure session handling.",
+            "Product catalog with dynamic browsing and filtering.",
+            "Add to Cart functionality with quantity adjustments.",
+            "Local storage / Redux integration for cart persistence."
+          ]
         },
         {
           "id": 3,
@@ -266,6 +270,7 @@ export const Data = {
   ],
   "certifications": [
     "GitHub Copilot",
-    "Azure AZ-900"
+    "Azure AZ-900",
+    "NVIDIA AI Technical Curriculum"
   ]
 }

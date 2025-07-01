@@ -6,7 +6,9 @@ export const Card = ({ data , onClickRedirect}) => {
     const redirectsvg = redirectImage;
     return (
         <div className="item-card">
+            <div className="image-div-container">
             <img className={data.type === "mobile" ? 'image-contains' : 'item-image'}  src={`${data.image === "" ? person : `/${data.image}.png`}`} alt={data.name} />
+            </div>
             <div className="item-content">
                 <div className="item-title-container">
                     <h4 className='item-title'>{data.name}</h4>
